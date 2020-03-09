@@ -2,8 +2,9 @@ require 'devise'
 require 'devise/uncommon_password/model'
 
 module Devise
-  mattr_accessor :password_matches
+  mattr_accessor :password_matches, :password_text_file
   @@password_matches = 100
+  @@password_text_file = 'passwords.txt'
   module UncommonPassword
   end
 end
