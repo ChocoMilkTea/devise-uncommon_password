@@ -9,7 +9,7 @@ module Devise
       extend ActiveSupport::Concern
       # Returns a list of the 100 most common passwords.
       def self.common_passwords
-        passwords_file = File.join(File.dirname(__FILE__), "passwords.txt")
+        passwords_file = File.join(File.dirname(__FILE__), Devise.password_text_file)
 
         passwords = []
         File.open(passwords_file, "r") do |file|
@@ -25,6 +25,7 @@ module Devise
 
       module ClassMethods
         Devise::Models.config(self, :password_matches)
+        Devise::Models.config(self, :password_text_file)
       end
 
       private

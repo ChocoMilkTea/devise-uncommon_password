@@ -27,6 +27,11 @@ By default, the password is checked against the 100 most common passwords that f
 config.password_matches = 1000
 ```
 
+### Additional Enhancements
+
+Added support to allow different password files to be loaded depending on environment
+
+
 ### Internationalization and Customization
 
 The default message for users who attempt to use a common password is:
