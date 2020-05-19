@@ -7,9 +7,9 @@ require "devise/uncommon_password/version"
 Gem::Specification.new do |s|
   s.name        = "devise-uncommon_password"
   s.version     = Devise::UncommonPassword::VERSION
-  s.authors     = ["Chris Larsen"]
-  s.email       = ["clarsenipod@gmail.com"]
-  s.homepage    = "https://github.com/HCLarsen/devise-uncommon_passwords"
+  s.authors     = ["ChocoJun"]
+  s.email       = ["hongjun87@gmail.com"]
+  s.homepage    = "https://github.com/ChocoMilkTea/devise-uncommon_password"
   s.summary     = "Devise extension to prevent users from using a common password."
   s.description = "Devise extension to prevent users from using a common password."
   s.license     = "MIT"
