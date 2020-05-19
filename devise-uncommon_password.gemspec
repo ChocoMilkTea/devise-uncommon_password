@@ -5,7 +5,7 @@ require "devise/uncommon_password/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "devise-uncommon_password"
+  s.name        = "devise-uncommon_password-alt"
   s.version     = Devise::UncommonPassword::VERSION
   s.authors     = ["ChocoJun"]
   s.email       = ["hongjun87@gmail.com"]
