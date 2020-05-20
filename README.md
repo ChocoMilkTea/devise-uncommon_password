@@ -20,6 +20,11 @@ class AdminUser < ApplicationRecord
 end
 ```
 
+If it doesn't load, include this in the file you need or in `application.rb`
+```
+require 'devise/uncommon_password'
+```
+
 By default, the password is checked against the 100 most common passwords that fit within the minimum and maximum lengths specified in the /config/initializers/devise.rb file. However, if a developer wants to check against a larger list, they may override this default by adding the following line to that same file:
 
 ```ruby
@@ -53,7 +58,7 @@ en:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'devise-uncommon_password'
+gem 'devise-uncommon_password-alt'
 ```
 
 And then execute:
