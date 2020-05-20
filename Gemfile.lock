@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    devise-uncommon_password-alt (0.1.0)
+    devise-uncommon_password-alt (0.1.1)
       devise (>= 3.5, < 4.8)
       rails (>= 4.2, < 6.1)
 
